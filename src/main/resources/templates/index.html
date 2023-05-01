@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>EMPLEADOS</title>
+</head>
+<body>
+<h1> EMPLEADOS</h1>
+NOMBRE:<p th:text="${empleado.getNombre()}"></p>
+SUELDO:<p th:text="${empleado.getSueldo()}"></p>
+ID:<p th:text="${empleado.getId()}"></p>
+DEPARTAMENTO:<p th:text="${empleado.getDepartamento()}"></p>
+FECHA DE NACIMIENTO:<p th:text="${empleado.getFechaNacimiento()}"></p>
+
+</body>
+</html>
